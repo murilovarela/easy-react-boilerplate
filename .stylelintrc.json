@@ -1,0 +1,29 @@
+{
+  "extends": "stylelint-config-recommended",
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "include",
+          "mixin",
+          "function",
+          "return",
+          "if",
+          "else",
+          "warn",
+          "error",
+          "extend",
+          "for"
+        ]
+      }
+    ],
+    "no-descending-specificity": null,
+    "no-duplicate-selectors": [true, {
+      "severity": "warning"
+    }]
+  }
+}

@@ -1,0 +1,31 @@
+html {
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-color: white;
+  margin: 0;
+}
+
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  & > li {
+    list-style: none;
+  }
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+}
